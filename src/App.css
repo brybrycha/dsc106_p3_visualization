@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.search-container {
+  position: absolute;
+  top: 5px;
+  left: 250px;
+  display: flex;
+  align-items: center;
+  background-color: white; /* Match your desired background */
+  border: 1px solid #694f4f; /* Light grey border */
+  border-radius: 20px; /* Rounded corners */
+  padding: 6px 10px;
+  width: 250px;
+  z-index: 1000;
+}
+
+.search-icon {
+  color: #220707; /* Light grey color for the icon */
+  margin-right: 10px; /* Spacing between icon and input field */
+}
+
+.search-box {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  background: transparent; /* Ensures the input background matches the container */
+}
